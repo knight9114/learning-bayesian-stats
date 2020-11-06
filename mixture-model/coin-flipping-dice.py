@@ -1,5 +1,11 @@
 # ---------------------------------------------------------------
 #   Learn Coin-Flip Mixture
+#   Situation:
+#       Suppose you have `n_coins` coins with unknown probabilities of getting
+#       a heads. At each turn, you roll an `n_coins`-sided dice, and then flip
+#       the coin corresponding to the what the dice shows. The objective is to
+#       set weights for the dice such that you maximize the probability of
+#       getting a heads
 # ---------------------------------------------------------------
 
 # General Imports
